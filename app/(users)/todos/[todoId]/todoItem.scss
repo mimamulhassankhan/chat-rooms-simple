@@ -1,0 +1,23 @@
+.todo-card{
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+    background-color: burlywood;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    &__number{
+       font-weight: 500;
+       font-size: 15px;
+       color: maroon;
+    }
+    &__title{
+        font-weight: 600;
+       font-size: 20px;
+       color: maroon;
+    }
+    &__user{
+        font-weight: 500;
+       font-size: 15px;
+       color: maroon;
+    }
+}

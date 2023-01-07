@@ -1,0 +1,14 @@
+body{
+  margin: 0;
+}
+.home{
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  &__title{
+    color:  maroon;
+    font-weight: 600;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,23 @@
+.search{
+    &__input-field{
+        height: 25px;
+        width: 422px;
+        border: 1px solid maroon;
+        border-right: none;
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        padding-left: 15px;
+        &:focus{
+            outline: none;
+        }
+    }
+    &__btn{
+        height: 29px;
+        border: 1px solid maroon;
+        background-color: maroon;
+        color: white;
+        width: 60px;
+        border-top-right-radius: 60px;
+        border-bottom-right-radius: 60px;
+    }
+}
